@@ -12,7 +12,12 @@ function App() {
       .then((data) => setPosts(data));
   });
 
-  return <CardRow posts={posts} />;
+  return (
+    <>
+      {posts.length === 0 && <div class="p-card">No posts found</div>}
+      {posts.length > 0 && <CardRow posts={posts} />}
+    </>
+  );
 }
 
 export default App;

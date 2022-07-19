@@ -1,14 +1,15 @@
 import Card from "./Card";
+import "../style.scss";
 
 export default function CardRow(props) {
   const posts = props.posts;
 
   return (
-    <div class="row">
+    <div class="row u-equal-height u-clearfix">
       {posts.map((post) => (
-        <a href={post.link} class="col-4">
+        <div class="col-4">
           <Card id={post.id} post={post} />
-        </a>
+        </div>
       ))}
     </div>
   );

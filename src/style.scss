@@ -1,0 +1,39 @@
+@import 'vanilla-framework';
+@include vf-base;
+@include vf-u-equal-height;
+
+.row {
+  margin-top: 2rem;
+}
+
+.p-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  border-top: 3px solid rgb(187, 125, 203);
+}
+
+.header {
+  border-radius: 2px;
+  padding: 1rem 1rem 0.5rem;
+  border-bottom: 0;
+}
+
+.p-card__content {
+  border-top: 1px dotted #999;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0.5rem;
+  padding: 1rem 0.5rem 0.5rem;
+}
+
+.p-card__footer {
+  border-top: 1px dotted #999;
+  padding: 1rem 0.5rem;
+  margin: auto 0.5rem 0;
+  max-width: inherit;
+  font-size: .875rem;
+}
+
