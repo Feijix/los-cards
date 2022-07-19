@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/los-cards/static/css/main.55309de2.css",
+    "main.css": "/los-cards/static/css/main.a6c27154.css",
     "main.js": "/los-cards/static/js/main.18c2860a.js",
     "index.html": "/los-cards/index.html",
-    "main.55309de2.css.map": "/los-cards/static/css/main.55309de2.css.map",
+    "main.a6c27154.css.map": "/los-cards/static/css/main.a6c27154.css.map",
     "main.18c2860a.js.map": "/los-cards/static/js/main.18c2860a.js.map"
   },
   "entrypoints": [
-    "static/css/main.55309de2.css",
+    "static/css/main.a6c27154.css",
     "static/js/main.18c2860a.js"
   ]
 }
